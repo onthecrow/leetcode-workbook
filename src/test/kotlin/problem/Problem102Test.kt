@@ -6,8 +6,8 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
-@DisplayName("102. Binary Tree Level Order Traversal")
-class Problem102Test : TestCase<Problem102>(Problem102()) {
+@DisplayName("102: Binary Tree Level Order Traversal")
+class Problem102Test : TestCase<Problem102>(Problem102::class) {
 
     @Test
     fun `Full tree case`() {

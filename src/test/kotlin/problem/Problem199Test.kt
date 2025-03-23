@@ -6,8 +6,8 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
-@DisplayName("199. Binary Tree Right Side View")
-class Problem199Test : TestCase<Problem199>(Problem199()) {
+@DisplayName("199: Binary Tree Right Side View")
+class Problem199Test : TestCase<Problem199>(Problem199::class) {
 
     @Test
     fun `balanced tree`() {

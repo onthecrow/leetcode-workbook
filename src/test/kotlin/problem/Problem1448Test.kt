@@ -6,8 +6,8 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
-@DisplayName("1448. Count Good Nodes in Binary Tree")
-class Problem1448Test : TestCase<Problem1448>(Problem1448()) {
+@DisplayName("1448: Count Good Nodes in Binary Tree")
+class Problem1448Test : TestCase<Problem1448>(Problem1448::class) {
 
     @Test
     fun `mixed graph`() {

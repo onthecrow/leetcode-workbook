@@ -6,8 +6,8 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
-@DisplayName("235. Lowest Common Ancestor of a Binary Search Tree")
-class Problem235Test : TestCase<Problem235>(Problem235()) {
+@DisplayName("235: Lowest Common Ancestor of a Binary Search Tree")
+class Problem235Test : TestCase<Problem235>(Problem235::class) {
 
     private val testTree by lazy {
         TreeNode(6).apply {
